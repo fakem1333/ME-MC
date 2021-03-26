@@ -173,7 +173,7 @@ Full search, 또는 3-step search로 탐색한 위치에서 소수점 단위 화
 
 실수 단위 비교를 수행하기 위해 가로 방향으로 선형 보간을 수행한 후, 세로 방향으로 선형 보간을 수행하여 실수 단위 프레임을 생성함.
 
-![](./Readme/Aspose.Words.7fab0107-2cee-439e-a57a-34c8a7fb00d4.013.png)
+<img src="./Readme/Aspose.Words.7fab0107-2cee-439e-a57a-34c8a7fb00d4.013.png" width="300" height="300">
 
 1. 결과
 
@@ -195,19 +195,20 @@ Full search, 또는 3-step search로 탐색한 위치에서 소수점 단위 화
    1. 알고리즘 실행 과정
       1. Step 1
 
-![](./Readme/Aspose.Words.7fab0107-2cee-439e-a57a-34c8a7fb00d4.016.png)
+
+<img src="./Readme/Aspose.Words.7fab0107-2cee-439e-a57a-34c8a7fb00d4.016.png" width="300" height="300">
 
 현재 target block 위치에서 현재 위치와 8방향으로 macroblock size 만큼 떨어진 motion vector를 가진 macro block 의 SAD를 측정함
 
 1. Step 2
 
-![](./Readme/Aspose.Words.7fab0107-2cee-439e-a57a-34c8a7fb00d4.017.png)
+<img src="./Readme/Aspose.Words.7fab0107-2cee-439e-a57a-34c8a7fb00d4.017.png" width="300" height="300">
 
 현재 이전 SAD의 위치에서 8방향으로 (macroblock size / 2) 만큼 떨어진 motion vector를 가진 macro block 의 SAD를 측정함
 
 1. Step 3
 
-![](./Readme/Aspose.Words.7fab0107-2cee-439e-a57a-34c8a7fb00d4.018.png)
+<img src="./Readme/Aspose.Words.7fab0107-2cee-439e-a57a-34c8a7fb00d4.018.png" width="300" height="300">
 
 Step 2와 같은 작업을 수행함. 이 중 가장 target frame과 차이가 적은 Motion vector를 선택.
 
